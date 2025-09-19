@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Welcome</h1>
+    <form action="/submitName" method="POST">
+        <label for="userName">Enter your name:</label>
+        <input type="text" id="userName" name="userName" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
